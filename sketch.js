@@ -38,7 +38,7 @@ function draw() {
   for (var i = 0; i < asteroids.length; i++) {
     if (ship.hits(asteroids[i])) {
       console.log("ooops!");
-      background(51)
+      background(255)
       fill(0);
       textSize(24);
       text("game over", windowWidth / 2, windowHeight / 2);
